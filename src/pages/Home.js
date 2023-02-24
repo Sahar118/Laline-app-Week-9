@@ -1,5 +1,4 @@
 import { Link, useNavigate } from 'react-router-dom'
-import MainNavigation from '../components/MainNavigation';
 
 const HomePage = () => {
     const navigate = useNavigate();

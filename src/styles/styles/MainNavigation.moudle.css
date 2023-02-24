@@ -4,12 +4,12 @@
     padding: 2rem;
     display: flex;
     justify-content: space-between;
-    background-color: yellowgreen;
+    background-color: wheat;
 }
  nav{
     display: flex;
     justify-content: space-evenly;
-    background-color: yellow;
+    /* background-color: ; */
     width:70%;
     margin: auto;
  }
