@@ -1,0 +1,35 @@
+.header{
+    max-width: 100%;
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: yellowgreen;
+}
+ nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: yellow;
+    width:70%;
+    margin: auto;
+ }
+.list{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    gap: 1rem;
+    list-style: none;
+    font-size: 20px;
+}
+
+.list a{
+    text-decoration: none;
+    color: red;
+}
+
+.list a:hover,
+.list a:active{
+    color: violet;
+    text-decoration: underline;
+    font-size: 25px;
+}
