@@ -1,5 +1,5 @@
 import { Link, useNavigate } from 'react-router-dom'
-
+import Slideshow from '../components/SlideShow'
 const HomePage = () => {
     const navigate = useNavigate();
 
@@ -18,6 +18,10 @@ const HomePage = () => {
             <p onClick={navigateHandler}>
                 Navigate button
             </p>
+            <div>
+                <Slideshow />
+
+            </div>
 
         </>
 
