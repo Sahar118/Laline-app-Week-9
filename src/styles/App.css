@@ -29,7 +29,12 @@ body{
 .product-div{
     width: 500px;
     height: 500px;
-    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+.product-div:hover{
+    border: 2px solid brown;
+
 }
 
 form{
@@ -37,4 +42,37 @@ form{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+
+.h1-home{
+    font-size: 300%;
+    color: brown;
+    padding-top: 50px;
+}
+
+.h1-products{
+    font-size: 500%;
+    color: brown;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+.slide-container{
+    width: 600px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.add-new-product{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    margin-top: 70px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.h1-new-product{
+    color: brown;
+    font-size: 400%;
+    padding-top: 50px;
 }

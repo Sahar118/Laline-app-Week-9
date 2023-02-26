@@ -9,6 +9,8 @@ import ProductsPage from './pages/Products'
 import EditProducts from './pages/EditProducts'
 import RootLayout from './pages/Root';
 import ErrorPage from './pages/Error'
+import Read from './pages/ReadP';
+import Update from './components/components/update/Update';
 import './styles/App.css';
 
 const router = createBrowserRouter([
@@ -19,7 +21,12 @@ const router = createBrowserRouter([
     children: [
       { path: '/', element: <HomePage /> },
       { path: '/products', element: <ProductsPage /> },
-      { path: '/edit', element: <EditProducts /> }
+      { path: '/edit', element: <EditProducts /> },
+      { path: '/read', element: <Read /> },
+      { path: '/update', element: <Update /> },
+      { path: '/delete', }
+
+
     ],
   },
 ]);

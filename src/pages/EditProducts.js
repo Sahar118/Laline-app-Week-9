@@ -1,10 +1,12 @@
 import React from 'react'
-import AddNewProduct from '../components/AddNewProduct'
+import Create from '../components/components/create/create';
+
 const AddProduct = () => {
     return (
-        <div>EditProducts
-            <AddNewProduct />
+        <div>
+            <h1 className='h1-new-product'> Add New Product</h1>
 
+            <Create />
         </div>
     )
 }

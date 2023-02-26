@@ -14,7 +14,11 @@ const MainNavigation = () => {
                         Products
                     </NavLink></li>
                     <li>
-                        <NavLink className={({ isActive }) => isActive ? classes.active : undefined} to='/edit'> Edit Products</NavLink>
+                        <NavLink className={({ isActive }) => isActive ? classes.active : undefined} to='/edit'>Add new products</NavLink>
+                    </li>
+
+                    <li>
+                        <NavLink className={({ isActive }) => isActive ? classes.active : undefined} to='/read'> Edit Products</NavLink>
                     </li>
                 </ul>
             </nav>

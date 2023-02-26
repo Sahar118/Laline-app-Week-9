@@ -1,28 +1,13 @@
-import { Link, useNavigate } from 'react-router-dom'
 import Slideshow from '../components/SlideShow'
-const HomePage = () => {
-    const navigate = useNavigate();
 
-    const navigateHandler = () => {
-        navigate('/products')
-    }
+const HomePage = () => {
+
     return (
         <>
-            <h1>MY HOME PAGE</h1>
-
-            <p>
-                GO TO
-                <Link to="/products">THE LIST OF PRODUCTS</Link>
-            </p>
-
-            <p onClick={navigateHandler}>
-                Navigate button
-            </p>
+            <h1 className='h1-home'>HOME PAGE</h1>
             <div>
                 <Slideshow />
-
             </div>
-
         </>
 
     )
