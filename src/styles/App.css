@@ -96,4 +96,9 @@ form{
     .h1-new-product{
         font-size:200%;
     }
+    .slide-container{
+        width: 300px;
+        margin: auto;
+        padding-top: 50px;
+    }
 }

@@ -1,7 +1,13 @@
 import React from 'react'
-
+import spinner from '../assest/spinner.gif'
 const Spinner = () => (
-    <image></image>
+    <>
+        <img
+            src={spinner}
+            style={{ width: '125px', margin: 'auto', marginTop: '100px', display: 'block' }}
+            alt='Loading...'
+        />
+    </>
 )
 
 

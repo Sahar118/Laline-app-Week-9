@@ -1,17 +1,13 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
-import { getItem, setItem } from '../styles/services/localStorageService';
 import { Link } from 'react-router-dom';
 import { Button } from 'semantic-ui-react';
+import Spinner from './layout/Spinner'
+
 const Get = () => {
 
     const [data, setData] = useState([]);
-    const [loading, setLoading] = useState(false);
-    const [products, setProducts] = useState([]);
-    const [error, serError] = useState({
-        isError: false,
-        message: '',
-    });
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         const getProducts = async () => {
@@ -23,6 +19,8 @@ const Get = () => {
                 setData(response.data);
             } catch (error) {
                 console.log(error)
+            } finally {
+                setLoading(false);
             }
         };
         getProducts()
