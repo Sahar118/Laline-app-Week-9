@@ -76,3 +76,24 @@ form{
     font-size: 400%;
     padding-top: 50px;
 }
+
+@media (max-width:700px) {
+    .product-img{
+        height: 100px;
+        width: 100px;
+    }
+    .product-div{
+        height: 400px;
+        width: 400px;
+    }
+    .h1-products{
+        font-size: 200%;
+    }
+    .add-new-product{
+        height: 500px;
+        width: 300px;
+    }
+    .h1-new-product{
+        font-size:200%;
+    }
+}
